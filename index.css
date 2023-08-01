@@ -1,0 +1,45 @@
+
+body{
+    background-color:red;
+   /* background:url("C:\Users\Prasanth\3D Objects\img.jpg");*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}   
+
+form{
+    width:800px;
+    height:400px;
+    margin:250px auto;
+    padding:10px 20px 30px;
+    background-color: rgba(0,0,0,.5);
+    color:white;
+    font-size:30px;
+    border-radius:10px;
+}
+
+.input{
+    width:100%;
+    font-size:1.2em;
+    border: 1px solid #006D77;
+    box-shadow:2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing:border-box;
+    margin:5px 0px 15px;
+}
+.submit{
+      margin-left:100px;
+      text-align:center;
+      padding: 10px 10px; 
+}
+
+
+  #name{
+   margin-left:100px;
+   text-align:center;
+   padding: 10px 10px;
+  }
+   #name input{
+   margin-left:100px;
+   text-align:center;
+   padding: 10px 10px;
+  }

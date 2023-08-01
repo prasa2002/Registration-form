@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>index </title>
+<link href="../css/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<style>
+   
+   body{
+    background:url("/img.jpg");
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+  .indexform{
+    width:500px;
+    margin:250px auto;
+    background-color:rgba (0,0,0,.5);
+    color:black;
+    padding:10px 20px 30px;
+    font-size:30px;
+    border-radius:10px;
+    
+ }
+ .indexform h3{
+    text-align:center;
+    color:red;
+ }
+ .indexform .label1{
+    display:block;
+ }
+ .input input{
+   width:100%;
+   font-size:1.2em;
+   border:1px solid black;
+   box-shadow:2px;
+   border-radius:8px;
+   padding:10px 10px;
+   box-sizing:border-box;
+   margin:5px 0px 15px;
+ }
+ input:focus{
+   background-color:gray;
+ }
+ .submit{
+  text-align:center;
+  
+  
+ }
+ submit{
+   border:1px solid black;
+   box-shadow:2px;
+   border-radius:4px;
+   padding:10px 10px;
+   background-color:red !important;
+     
+ }
+
+
+</style>
+
+<body>
+  <div class="indexform">
+    
+    <form action="indexAction.jsp" method="post" >
+    
+      <fieldset>
+       <h3>Index</h3>
+      <div class="input">
+      <label class="label1" for="fname">Name</label>
+      <input type="text" id="name" name="Name"><br>
+      </div >
+    
+        <div class="input">
+        <label class="label1" for="fname">MobileNo</label>
+        <input type="Number" id="name" name="Mobile No"><br>
+        </div>
+        
+      <div class="input">
+      <label class="label1" for="fname">Email</label>
+      <input type="text" id="name" name="Email"><br>
+      </div>
+      
+       <div class="input">
+       <label class="label1" for="fname">password</label>
+       <input type="password" id="name" name="password"><br>
+       </div>
+       
+      <div class="submit"> 
+      <input type="submit" name="submit">
+      </div>
+      
+      </fieldset>
+     </form>
+    
+ </div>
+ </body>
+</html>
